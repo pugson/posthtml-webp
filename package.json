@@ -22,13 +22,6 @@
     "snazzy": "^8.0.0",
     "standard": "^13.1.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm t",
-      "pre-commit": "npm run lint",
-      "commit-msg": "conventional-changelog-lint -p angular -e"
-    }
-  },
   "engines": {
     "node": ">=8"
   },
